@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import styled, { keyframes } from 'styled-components';
 
-const StudentCard = ({ name, registrationNumber, photo }) => {
+const StudentCard = ({name,registrationNumber,photo }) => {
   const [isVisible, setIsVisible] = useState(false);
 
   const toggleVisibility = () => {
@@ -14,14 +14,14 @@ const StudentCard = ({ name, registrationNumber, photo }) => {
       <Info>
         <Name>{name}</Name>
         <RegNumber>{registrationNumber}</RegNumber>
-        {isVisible && <AdditionalContent>I'm Pavan from 4th Year Artificial Intelligence and Machine Learning.</AdditionalContent>}
+        {isVisible && <AdditionalContent>I'm Jayanth from 4th Year Artificial Intelligence and Data Science.</AdditionalContent>}
         <ToggleButton onClick={toggleVisibility}>
           {isVisible ? 'Hide Details' : 'Show Details'}
         </ToggleButton>
       </Info>
     </Card>
   );
-};
+} ;
 
 export default StudentCard;
 

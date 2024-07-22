@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "git remote add origin https://github.com/JayanthYadav123/NameCard.git",
+  "homepage": "https://jayanthyadav123.github.io/NameCard/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
